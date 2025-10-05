@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# Models & Training data
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Database files (if local, not to expose student data)
+*.db
+*.sqlite3
+
+# System files
+.DS_Store
+Thumbs.db
